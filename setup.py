@@ -8,19 +8,22 @@ OPTIONS = {
         'packages': [],
     'includes': ['src', 'tkinter'],
     'plist': {
-        'CFBundleName': "房堪工具",
-        'CFBundleDisplayName': "房堪文件夹生成",
-        'CFBundleGetInfoString': "Folder Generator Dracula Edition",
-        'CFBundleIdentifier': "com.trae.foldergenerator",
-        'CFBundleVersion': "1.0.0",
-        'CFBundleShortVersionString': "1.0.0",
-        'NSHumanReadableCopyright': "Copyright © 2024 Trae User, All Rights Reserved"
+        'CFBundleName': "房堪助手",
+        'CFBundleDisplayName': "房堪工作流助手",
+        'CFBundleGetInfoString': "House Survey Workflow Assistant (Dracula Edition)",
+        'CFBundleIdentifier': "com.jhihhe.housesurvey",
+        'CFBundleVersion': "2.0.0",
+        'CFBundleShortVersionString': "2.0.0",
+        'NSHumanReadableCopyright': "Copyright © 2024 JhihHe, All Rights Reserved"
     }
 }
 
 setup(
     app=APP,
-    name="FolderGenerator",
+    name="HouseSurveyAssistant",
+    description="专为房产摄影工作流打造的桌面自动化工具",
+    author="JhihHe",
+    url="https://github.com/jhihhe/Folderbatchgenerationtool",
     data_files=DATA_FILES,
     options={'py2app': OPTIONS},
     setup_requires=['py2app'],
